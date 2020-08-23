@@ -1,12 +1,34 @@
-<header>
-	<div class="header-left">
-		<i class="fas fa-utensils"></i>
+<div class="home">
+
+	<header>
+		<div class="header-logo">
+			<h1><%= link_to "居酒屋", root_path %></h1>
+		</div>
+
+		<div class="header-lists">
+			<ul>
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "About", root_path %></li>
+				<li><%= link_to "Menu", root_path %></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<div class="main">
+
+	<section class="news">
+
+	<h2>お知らせ</h2>
+
+	<dl>
+		<dt>2020/01/14</dt>
+			<dd>sample<span class="new-icon">NEW</span></dd>
+	</dl>
+
+	</section>
+
 	</div>
-</header>
+	<!--/#main-->
 
-
-<div class="row">
-  <div class="col" style="background:#FB8;height:200px;">ブロックA</div>
-  <div class="col" style="background:#FD9;height:200px;">ブロックB</div>
-  <div class="col" style="background:#FB8;height:200px;">ブロックC</div>
 </div>
